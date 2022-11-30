@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    background-image: url("images/burger.jpg");
+    background-size: cover;
+
+}
+
+#logo{
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 2s;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+h1,h5{
+    margin: 0;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+li a{
+    text-decoration:none;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: orange;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: yellow;
+
+}
+
+.two-columns{
+    width: 50%;
+    background-color: yellow;
+    float: left;
+    padding: 40px;
+    line-height: 2;
+    
+}
+
+#burger{
+    width: 50%;
+    height: 375px;
+    background-image: url("images/burger.jpg");
+    background-size: cover;
+}
+
+.four-columns{
+    float: left;
+    background-color: yellow;
+    width: 22%;
+    height: 250px;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("images/burger2.jpg");
+    background-size: cover;
+}
+
+.section-heading{
+   text-align: center;
+}
+
+footer{
+    background-color: orange;
+    clear: both;
+    width: 100%;
+    padding: 65px;
+    text-align: center;
+}
+
+table{
+width: 60%;
+margin: auto;
+}
+
+table td{
+    text-align: center;
+}
+
+trinth-child(even){
+    background-color: gray;
+}
+
+table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  th{
+    text-align: center;
+  }
+
+  #burgpic{
+    width: 65px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 2s;
+  }
+  #burgpic:hover{
+    transform: rotate(360deg);
+  }
+  .menu{
+    background-color: rgb(253, 148, 42);
+  }
+
+  button{
+    background-color: orange;
+  }
